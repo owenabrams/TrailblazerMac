@@ -78,8 +78,8 @@ test:
    production:
      url: <%= ENV['DATABASE_URL'] %>
 #
-production:
-  <<: *default
-  database: trailblazer_production
-  username: owena
-  password: hello
+#production:
+ # <<: *default
+  #database: trailblazer_production
+  #username: owena
+  #password: hello
