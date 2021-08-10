@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.6.6'
+ruby '2.7.4'
 
 gem 'bootsnap', require: false
 gem 'jbuilder', '~> 2.0'
@@ -19,6 +19,7 @@ gem 'cloudinary', '~> 1.9.1'
 gem 'geocoder'
 gem 'faker', '~> 1.6', '>= 1.6.6'
 gem 'devise'
+gem 'tzinfo-data'
 
 group :development do
   gem 'web-console', '>= 3.3.0'

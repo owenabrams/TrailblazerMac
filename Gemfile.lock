@@ -97,6 +97,7 @@ GEM
     faker (1.9.6)
       i18n (>= 0.7)
     ffi (1.15.3)
+    ffi (1.15.3-x64-mingw32)
     font-awesome-sass (5.6.1)
       sassc (>= 1.11)
     geocoder (1.6.7)
@@ -131,8 +132,11 @@ GEM
     nokogiri (1.12.2)
       mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
+    nokogiri (1.12.2-x64-mingw32)
+      racc (~> 1.4)
     orm_adapter (0.5.0)
     pg (1.2.3)
+    pg (1.2.3-x64-mingw32)
     pry (0.13.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
@@ -188,7 +192,15 @@ GEM
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 4.0)
       netrc (~> 0.8)
+    rest-client (2.1.0-x64-mingw32)
+      ffi (~> 1.9)
+      http-accept (>= 1.7.0, < 2.0)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 4.0)
+      netrc (~> 0.8)
     sassc (2.4.0)
+      ffi (~> 1.9)
+    sassc (2.4.0-x64-mingw32)
       ffi (~> 1.9)
     sassc-rails (2.1.2)
       railties (>= 4.0.0)
@@ -216,11 +228,14 @@ GEM
     tilt (2.0.10)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
+    tzinfo-data (1.2021.1)
+      tzinfo (>= 1.0.0)
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.7)
+    unf_ext (0.0.7.7-x64-mingw32)
     warden (1.2.9)
       rack (>= 2.0.9)
     web-console (4.1.0)
@@ -240,6 +255,7 @@ GEM
 
 PLATFORMS
   ruby
+  x64-mingw32
 
 DEPENDENCIES
   autoprefixer-rails
@@ -263,12 +279,13 @@ DEPENDENCIES
   simple_form
   spring
   spring-watcher-listen (~> 2.0.0)
+  tzinfo-data
   uglifier
   web-console (>= 3.3.0)
   webpacker
 
 RUBY VERSION
-   ruby 2.6.6p146
+   ruby 2.7.4p191
 
 BUNDLED WITH
    2.2.25
