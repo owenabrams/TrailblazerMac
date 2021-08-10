@@ -75,11 +75,13 @@ test:
 #
 # You can use this database configuration with:
 #
-   production:
-     url: <%= ENV['DATABASE_URL'] %>
+#   production:
+#     url: <%= ENV['DATABASE_URL'] %>
 #
-#production:
- # <<: *default
-  #database: trailblazer_production
-  #username: owena
-  #password: hello
+production:
+  <<: *default
+  url: <%= ENV['DATABASE_URL'] %>
+  database: d577uu5hbjsift
+  username: lmotejzizvioxj
+  password: 9ffe46e431e5252554ee644ffb58353a1b9833d0a23da5827e949a2103444a0c
+
